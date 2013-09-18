@@ -1,0 +1,5 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1379433416000 520331 cba0b93b0072105d808ef7a00a107a4eb97874e7 /home/temnanich/QrcodeDecoding/android/libs/zxing-core-2.2.jar
+1379433416000 520331 cba0b93b0072105d808ef7a00a107a4eb97874e7 /home/temnanich/QrcodeDecoding/ScanQrcode/libs/zxing-core-2.2.jar

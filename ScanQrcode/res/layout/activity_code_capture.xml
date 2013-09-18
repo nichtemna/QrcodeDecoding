@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000" >
+
+    <ViewStub
+        android:id="@android:id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/_buttons"
+        android:inflatedId="@android:id/content" />
+    <!-- android:layout_below="@+id/_title" -->
+
+    <RelativeLayout
+        android:id="@+id/_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#fffffc" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/cancel"
+            android:textColor="#7c7269"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/light"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:text="@string/light"
+            android:textColor="#7c7269"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
